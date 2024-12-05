@@ -5,9 +5,8 @@ public class XYZ {
 	public void m1() {
 
 		System.out.println("Method 1 Developed for Learning");
-        int a =10;
-		int b= 20;
-		int c= a+b;
-		System.out.println("value of c :"+c);
+        F1 ob= new F1();
+    int result=    ob.m1(12, 23);
+    System.out.println("Result : "+result);
 	}
-}
+} 
